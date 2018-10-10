@@ -33,9 +33,9 @@
             this.chkStretch = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.btnBackColour = new System.Windows.Forms.Button();
             this.btnClearPic = new System.Windows.Forms.Button();
             this.btnShowPic = new System.Windows.Forms.Button();
-            this.btnBackColour = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -106,6 +106,19 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
+            // btnBackColour
+            // 
+            this.btnBackColour.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnBackColour.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBackColour.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBackColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackColour.Location = new System.Drawing.Point(96, 3);
+            this.btnBackColour.Name = "btnBackColour";
+            this.btnBackColour.Size = new System.Drawing.Size(166, 37);
+            this.btnBackColour.TabIndex = 4;
+            this.btnBackColour.Text = "Background";
+            this.btnBackColour.UseVisualStyleBackColor = false;
+            // 
             // btnClearPic
             // 
             this.btnClearPic.BackColor = System.Drawing.Color.PaleGreen;
@@ -132,25 +145,13 @@
             this.btnShowPic.Text = "Show Picture";
             this.btnShowPic.UseVisualStyleBackColor = false;
             // 
-            // btnBackColour
-            // 
-            this.btnBackColour.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnBackColour.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBackColour.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBackColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackColour.Location = new System.Drawing.Point(96, 3);
-            this.btnBackColour.Name = "btnBackColour";
-            this.btnBackColour.Size = new System.Drawing.Size(166, 37);
-            this.btnBackColour.TabIndex = 4;
-            this.btnBackColour.Text = "Background";
-            this.btnBackColour.UseVisualStyleBackColor = false;
-            // 
             // PictureViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "PictureViewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
